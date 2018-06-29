@@ -36,11 +36,11 @@ Initially hosted in a private bitbucket repository.
 
 ## Screenshot
 
-![screenshot](https://raw.githubusercontent.com/mamcer/iso-finder/master/doc/screenshot-01.png)
+![screenshot](https://raw.githubusercontent.com/mamcer/isofinder/master/doc/screenshot-01.png)
 
-![screenshot](https://raw.githubusercontent.com/mamcer/iso-finder/master/doc/screenshot-02.png)
+![screenshot](https://raw.githubusercontent.com/mamcer/isofinder/master/doc/screenshot-02.png)
 
-![screenshot](https://raw.githubusercontent.com/mamcer/iso-finder/master/doc/screenshot-03.png)
+![screenshot](https://raw.githubusercontent.com/mamcer/isofinder/master/doc/screenshot-03.png)
 
 ## Technologies
 

@@ -48,3 +48,7 @@ Initially hosted in a private bitbucket repository.
 - SQL Server 2012
 - EntityFramework 6.1.3
 - NET 4.5
+
+## Requirements
+
+- [Virtual CloneDrive](https://www.elby.ch/en/products/vcd.html)

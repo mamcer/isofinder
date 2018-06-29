@@ -1,0 +1,117 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7E334988-13D0-4514-AA06-9073337D4269}"
+	ProjectSection(SolutionItems) = preProject
+		Common\Dev.Deployment.SetParameters.xml = Common\Dev.Deployment.SetParameters.xml
+		FXCop.ruleset = FXCop.ruleset
+		Common\GlobalAssemblyInfo.cs = Common\GlobalAssemblyInfo.cs
+		Settings.StyleCop = Settings.StyleCop
+		sonar-project.properties = sonar-project.properties
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{545BB28A-5FE3-4AE2-8D0D-F060C4EB25A5}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "IsoFinder.Database", "IsoFinder.Database\IsoFinder.Database.sqlproj", "{CFAA7D46-3947-4811-B52A-D1189BCAECC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsoFinder.FileScanner", "IsoFinder.FileScanner\IsoFinder.FileScanner.csproj", "{8A1629D1-914B-4D07-AE98-FAB846BF047D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsoFinder.Data", "IsoFinder.Data\IsoFinder.Data.csproj", "{102140BC-3331-4E67-9E68-8504317119A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsoFinder.FileScanner.Tests", "IsoFinder.FileScanner.Tests\IsoFinder.FileScanner.Tests.csproj", "{20D643D6-93F8-4551-B496-070CF45733D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsoFinder.IsoScanner", "IsoFinder.IsoScanner\IsoFinder.IsoScanner.csproj", "{A321BEB5-56AD-4BA6-875E-26C79A3A3267}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsoFinder.Core", "IsoFinder.Core\IsoFinder.Core.csproj", "{F26FA53C-1F4C-4C68-AF55-53D0A22B14AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsoFinder.Core.Test", "IsoFinder.Core.Test\IsoFinder.Core.Test.csproj", "{6BAD089F-737D-4F3A-8678-D7AA4FC2B4F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsoFinder.Web", "IsoFinder.Web\IsoFinder.Web.csproj", "{09DE8544-0D74-41EF-B134-8242300704D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsoFinder.Application", "IsoFinder.Application\IsoFinder.Application.csproj", "{1D4DBB18-9162-46A3-AD02-37A7366FA03A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsoFinder.Handler", "IsoFinder.Handler\IsoFinder.Handler.csproj", "{D990FF91-384F-404F-9373-3B9DCD2E8AE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Azure|Any CPU = Azure|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFAA7D46-3947-4811-B52A-D1189BCAECC6}.Azure|Any CPU.ActiveCfg = Azure|Any CPU
+		{CFAA7D46-3947-4811-B52A-D1189BCAECC6}.Azure|Any CPU.Build.0 = Azure|Any CPU
+		{CFAA7D46-3947-4811-B52A-D1189BCAECC6}.Azure|Any CPU.Deploy.0 = Azure|Any CPU
+		{CFAA7D46-3947-4811-B52A-D1189BCAECC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFAA7D46-3947-4811-B52A-D1189BCAECC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFAA7D46-3947-4811-B52A-D1189BCAECC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFAA7D46-3947-4811-B52A-D1189BCAECC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A1629D1-914B-4D07-AE98-FAB846BF047D}.Azure|Any CPU.ActiveCfg = Azure|Any CPU
+		{8A1629D1-914B-4D07-AE98-FAB846BF047D}.Azure|Any CPU.Build.0 = Azure|Any CPU
+		{8A1629D1-914B-4D07-AE98-FAB846BF047D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A1629D1-914B-4D07-AE98-FAB846BF047D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A1629D1-914B-4D07-AE98-FAB846BF047D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A1629D1-914B-4D07-AE98-FAB846BF047D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{102140BC-3331-4E67-9E68-8504317119A0}.Azure|Any CPU.ActiveCfg = Release|Any CPU
+		{102140BC-3331-4E67-9E68-8504317119A0}.Azure|Any CPU.Build.0 = Release|Any CPU
+		{102140BC-3331-4E67-9E68-8504317119A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{102140BC-3331-4E67-9E68-8504317119A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{102140BC-3331-4E67-9E68-8504317119A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{102140BC-3331-4E67-9E68-8504317119A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20D643D6-93F8-4551-B496-070CF45733D8}.Azure|Any CPU.ActiveCfg = Release|Any CPU
+		{20D643D6-93F8-4551-B496-070CF45733D8}.Azure|Any CPU.Build.0 = Release|Any CPU
+		{20D643D6-93F8-4551-B496-070CF45733D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20D643D6-93F8-4551-B496-070CF45733D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20D643D6-93F8-4551-B496-070CF45733D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20D643D6-93F8-4551-B496-070CF45733D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A321BEB5-56AD-4BA6-875E-26C79A3A3267}.Azure|Any CPU.ActiveCfg = Release|Any CPU
+		{A321BEB5-56AD-4BA6-875E-26C79A3A3267}.Azure|Any CPU.Build.0 = Release|Any CPU
+		{A321BEB5-56AD-4BA6-875E-26C79A3A3267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A321BEB5-56AD-4BA6-875E-26C79A3A3267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A321BEB5-56AD-4BA6-875E-26C79A3A3267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A321BEB5-56AD-4BA6-875E-26C79A3A3267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F26FA53C-1F4C-4C68-AF55-53D0A22B14AE}.Azure|Any CPU.ActiveCfg = Release|Any CPU
+		{F26FA53C-1F4C-4C68-AF55-53D0A22B14AE}.Azure|Any CPU.Build.0 = Release|Any CPU
+		{F26FA53C-1F4C-4C68-AF55-53D0A22B14AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F26FA53C-1F4C-4C68-AF55-53D0A22B14AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F26FA53C-1F4C-4C68-AF55-53D0A22B14AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F26FA53C-1F4C-4C68-AF55-53D0A22B14AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BAD089F-737D-4F3A-8678-D7AA4FC2B4F8}.Azure|Any CPU.ActiveCfg = Release|Any CPU
+		{6BAD089F-737D-4F3A-8678-D7AA4FC2B4F8}.Azure|Any CPU.Build.0 = Release|Any CPU
+		{6BAD089F-737D-4F3A-8678-D7AA4FC2B4F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BAD089F-737D-4F3A-8678-D7AA4FC2B4F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BAD089F-737D-4F3A-8678-D7AA4FC2B4F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BAD089F-737D-4F3A-8678-D7AA4FC2B4F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09DE8544-0D74-41EF-B134-8242300704D3}.Azure|Any CPU.ActiveCfg = Release|Any CPU
+		{09DE8544-0D74-41EF-B134-8242300704D3}.Azure|Any CPU.Build.0 = Release|Any CPU
+		{09DE8544-0D74-41EF-B134-8242300704D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09DE8544-0D74-41EF-B134-8242300704D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09DE8544-0D74-41EF-B134-8242300704D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09DE8544-0D74-41EF-B134-8242300704D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D4DBB18-9162-46A3-AD02-37A7366FA03A}.Azure|Any CPU.ActiveCfg = Release|Any CPU
+		{1D4DBB18-9162-46A3-AD02-37A7366FA03A}.Azure|Any CPU.Build.0 = Release|Any CPU
+		{1D4DBB18-9162-46A3-AD02-37A7366FA03A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D4DBB18-9162-46A3-AD02-37A7366FA03A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D4DBB18-9162-46A3-AD02-37A7366FA03A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D4DBB18-9162-46A3-AD02-37A7366FA03A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D990FF91-384F-404F-9373-3B9DCD2E8AE0}.Azure|Any CPU.ActiveCfg = Azure|Any CPU
+		{D990FF91-384F-404F-9373-3B9DCD2E8AE0}.Azure|Any CPU.Build.0 = Azure|Any CPU
+		{D990FF91-384F-404F-9373-3B9DCD2E8AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D990FF91-384F-404F-9373-3B9DCD2E8AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D990FF91-384F-404F-9373-3B9DCD2E8AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D990FF91-384F-404F-9373-3B9DCD2E8AE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5F5E576-F6D5-41B4-96E7-F631C0C85096}
+	EndGlobalSection
+EndGlobal

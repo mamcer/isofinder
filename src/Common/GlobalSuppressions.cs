@@ -1,0 +1,3 @@
+﻿//For Example
+//[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1033:InterfaceMethodsShouldBeCallableByChildTypes", Scope = "member", Target = "Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ConfigurationElementCollection`1.#System.Collections.IList.IsFixedSize")]
+//[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1001:TypesThatOwnDisposableFieldsShouldBeDisposable", Scope = "type", Target = "Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ConfigurationSourceBuilder")]

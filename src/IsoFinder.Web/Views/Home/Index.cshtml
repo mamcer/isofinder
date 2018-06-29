@@ -1,0 +1,29 @@
+﻿@model IsoFinder.Web.Models.IsoFinderInfo
+
+@{
+    ViewBag.Title = "IsoFinder";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h1>IsoFinder</h1>
+
+        <div class="form-group">
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.SearchQuery, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.SearchQuery, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10">
+                <input type="submit" value="Search" class="btn btn-primary" />
+            </div>
+        </div>
+
+        <p>Searching over @Model.IsoVolumeCount iso volumes, @Model.FileCount files</p>
+    </div>
+}

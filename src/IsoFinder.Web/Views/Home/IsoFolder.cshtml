@@ -1,0 +1,18 @@
+﻿@model IsoFinder.Web.Models.IsoFolders
+
+@{
+    ViewBag.Title = "IsoFolder";
+}
+
+<h2>@Model.IsoFolderName</h2>
+
+@foreach (var folder in Model.FolderItems)
+{
+    <p>@Html.ActionLink("Add", "AddFolderToCart", new { folderId = folder.Id, folderName = folder.Name, isoId = Model.IsoVolumeId, rootFolderId = Model.IsoFolderId }) - [@Html.ActionLink(folder.Name, "IsoFolder", new { isoId = Model.IsoVolumeId, folderId = folder.Id })]</p>
+}
+
+@foreach (var file in Model.FileItems)
+{
+    <p>@Html.ActionLink("Add", "AddFileToCart", new { fileId = file.Id, fileName = file.Name, isoId = Model.IsoVolumeId, rootFolderId = Model.IsoFolderId }) - @file.Name</p>
+}
+

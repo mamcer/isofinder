@@ -1,0 +1,18 @@
+﻿@model IsoFinder.Web.Models.IsoVolumes
+
+@{
+    ViewBag.Title = "Iso Volumes";
+}
+
+<h2>Iso Volumes</h2>
+
+<p>Use this area to provide additional information</p>
+
+<ol>
+@foreach (var item in Model.Items)
+{
+    <li>
+        @Html.ActionLink(item.Name, "IsoFolder", new { isoId = item.Id, folderId = item.RootFolderId })
+    </li>
+}
+</ol>

@@ -1,0 +1,44 @@
+﻿@model IsoFinder.Web.Models.UserInfo
+
+@{
+    ViewBag.Title = "My Requests";
+    var fileCount = Model.CartFileItems.Count();
+    var folderCount = Model.CartFolderItems.Count();
+}
+
+<h2>My Requests</h2>
+
+
+@if (fileCount > 0 || folderCount > 0)
+{
+
+
+    if (fileCount > 0)
+    {
+        <h3>Files [@fileCount] </h3>
+
+        foreach (var file in Model.CartFileItems)
+        {
+            <p>@file.Name @Html.ActionLink("Remove", "RemoveFile", new { id = file.Id })</p>
+        }
+    }
+
+    if (folderCount > 0)
+    {
+        <h3>Folders [@folderCount] </h3>
+
+        foreach (var folder in Model.CartFolderItems)
+        {
+            <p>[@folder.Name] @Html.ActionLink("Remove", "RemoveFolder", new { id = folder.Id })</p>
+        }
+
+    }
+
+    <br />
+
+    <p>@Html.ActionLink("Download All", "Download")&nbsp;&nbsp;@Html.ActionLink("Remove All", "RemoveAll")</p>
+}
+else
+{
+    <p>There are no pending downloads.</p>
+}

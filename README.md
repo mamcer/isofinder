@@ -8,7 +8,7 @@ In `original` branch you will find the original source code for this application
 
 IsoFinder is one of the solutions with more time invested from my side. It started by 2010 with a POC and I completely rewrite it several times. A WPF application, MVC and even an AngularJS version. This is the latest version. 
 
-IsoFinder is an application that helps the user to find information (files, folders) inside volumes compiled as iso files.
+IsoFinder is an application that helps the user find information (files, folders) inside volumes compiled as iso files.
 
 Main Functionalities:
 
@@ -22,7 +22,7 @@ Main Projects:
 
 ### IsoFinder Web
 
-A web application. Main front-end that exposes the search and download functionality.
+A web application. Main front-end that exposes the search and download functionality. Still in progress, some functionality is still missing like the user profile
 
 ### IsoFinder IsoScanner
 

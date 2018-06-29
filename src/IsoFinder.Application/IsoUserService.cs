@@ -7,7 +7,7 @@ namespace IsoFinder.Application
 {
     public class IsoUserService
     {
-        private IUnitOfWork _unitOfWork;
+        private readonly IUnitOfWork _unitOfWork;
 
         public IsoUserService(IUnitOfWork unitOfWork)
         {

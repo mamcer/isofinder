@@ -5,34 +5,14 @@ namespace IsoFinder.Core
 {
     public class PagedResult<TEntity>
     {
-        private readonly IEnumerable<TEntity> _items;
-        private readonly int _totalCount;
-
         public PagedResult(IEnumerable<TEntity> items, int totalCount)
         {
-            if (items == null)
-            {
-                throw new ArgumentNullException("items");
-            }
-
-            _items = items;
-            _totalCount = totalCount;
+            Items = items ?? throw new ArgumentNullException("items");
+            TotalCount = totalCount;
         }
 
-        public IEnumerable<TEntity> Items
-        {
-            get
-            {
-                return _items;
-            }
-        }
+        public IEnumerable<TEntity> Items { get; }
 
-        public int TotalCount
-        {
-            get
-            {
-                return _totalCount;
-            }
-        }
+        public int TotalCount { get; }
     }
 }

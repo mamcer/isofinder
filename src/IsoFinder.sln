@@ -12,13 +12,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		sonar-project.properties = sonar-project.properties
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{545BB28A-5FE3-4AE2-8D0D-F060C4EB25A5}"
-	ProjectSection(SolutionItems) = preProject
-		.nuget\NuGet.Config = .nuget\NuGet.Config
-		.nuget\NuGet.exe = .nuget\NuGet.exe
-		.nuget\NuGet.targets = .nuget\NuGet.targets
-	EndProjectSection
-EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "IsoFinder.Database", "IsoFinder.Database\IsoFinder.Database.sqlproj", "{CFAA7D46-3947-4811-B52A-D1189BCAECC6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsoFinder.FileScanner", "IsoFinder.FileScanner\IsoFinder.FileScanner.csproj", "{8A1629D1-914B-4D07-AE98-FAB846BF047D}"

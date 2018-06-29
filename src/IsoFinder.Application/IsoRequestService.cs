@@ -6,9 +6,9 @@ using System.Linq;
 
 namespace IsoFinder.Application
 {
-    public class IsoRequestService : IsoFinder.Application.IIsoRequestService
+    public class IsoRequestService : IIsoRequestService
     {
-        private IUnitOfWork _unitOfWork;
+        private readonly IUnitOfWork _unitOfWork;
 
         public IsoRequestService(IUnitOfWork unitOfWork)
         {

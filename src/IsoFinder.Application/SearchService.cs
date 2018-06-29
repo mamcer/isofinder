@@ -7,7 +7,7 @@ namespace IsoFinder.Application
 {
     public class SearchService : ISearchService
     {
-        private IUnitOfWork _unitOfWork;
+        private readonly IUnitOfWork _unitOfWork;
 
         public SearchService(IUnitOfWork unitOfWork)
         {

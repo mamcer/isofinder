@@ -7,7 +7,7 @@ namespace IsoFinder.Application
 {
     public class IsoVolumeService : IIsoVolumeService
     {
-        private IUnitOfWork _unitOfWork;
+        private readonly IUnitOfWork _unitOfWork;
 
         public IsoVolumeService(IUnitOfWork unitOfWork)
         {

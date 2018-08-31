@@ -15,7 +15,7 @@ echo.
 
 pushd %~dp0
 set start_time=%time%
-set reportgenerator_bin=..\report-generator\ReportGenerator.exe
+set reportgenerator_bin=C:\root\bin\report-generator\tools\ReportGenerator.exe
 set opencover_file=%CD%\..\..\Src\open-cover.xml
 set target_dir="%CD%\..\..\Src\coverage-report"
 

@@ -19,7 +19,7 @@ set start_time=%time%
 set returnErrorCode=true
 set pause=false
 
-set msbuild_folder="%ProgramFiles(x86)%\MSBuild\14.0\Bin"
+set msbuild_folder=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\
 set solution_folder="%CD%\..\..\Src"
 set solution_name=IsoFinder.sln
 set default_build_type=Debug
@@ -48,7 +48,7 @@ set prompt=$$$g$s
 @REM Change to the directory where the solution file resides
 pushd %solution_folder%
 
-call %msbuild_folder%\msbuild /m %solution_name% /t:Rebuild /p:Configuration=%default_build_type%
+call "%msbuild_folder%\msbuild.exe" /m %solution_name% /t:Rebuild /p:Configuration=%default_build_type%
 @if %errorlevel%  NEQ 0  goto :error
 
 @REM  Restore the command prompt and exit

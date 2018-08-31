@@ -15,9 +15,9 @@ echo.
 
 pushd %~dp0
 set start_time=%time%
-set msbuild_bin=%PROGRAMFILES(X86)%\MSBuild\14.0\Bin\MSBuild.exe
+set msbuild_bin=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe
 set working_directory="%CD%\..\..\Src"
-set vstestconsole_bin=%PROGRAMFILES(X86)%\Microsoft Visual Studio 14.0\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe
+set vstestconsole_bin=c:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe
 set vstestconsole_proj_path="%CD%\..\..\Src\vstest-console.proj"
 
 @REM  Shorten the command prompt for making the output easier to read

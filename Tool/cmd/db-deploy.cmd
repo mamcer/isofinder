@@ -19,7 +19,7 @@ set start_time=%time%
 set returnErrorCode=true
 set pause=false
 
-set msbuild_folder="%ProgramFiles(x86)%\MSBuild\12.0\Bin"
+set msbuild_folder="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin
 set webdeploy_folder="%ProgramW6432%\IIS\Microsoft Web Deploy V3"
 set solution_folder="..\..\Src"
 set solution_name=IsoFinder.sln

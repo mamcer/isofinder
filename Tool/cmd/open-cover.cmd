@@ -15,11 +15,11 @@ echo.
 
 pushd %~dp0
 set start_time=%time%
-set msbuild_bin="%PROGRAMFILES(x86)%\MSBuild\14.0\Bin\MSBuild.exe"
+set msbuild_bin="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe"
 set solution_name=IsoFinder.sln
 set solution_path="%CD%\..\..\Src"
-set opencover_bin="..\tool\open-cover\OpenCover.Console.exe"
-set mstest_bin="%PROGRAMFILES(x86)%\Microsoft Visual Studio 14.0\Common7\IDE\mstest.exe"
+set opencover_bin="C:\root\bin\open-cover\tools\OpenCover.Console.exe"
+set mstest_bin="c:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\mstest.exe"
 set opencover_proj=open-cover.proj
 
 @REM  shorten the command prompt for making the output easier to read

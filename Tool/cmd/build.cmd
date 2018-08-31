@@ -3,7 +3,7 @@ SETLOCAL
 @REM  ----------------------------------------------------------------------------
 @REM  build.cmd
 @REM
-@REM  author: mario.moreno@live.com
+@REM  author: m4mc3r@gmail.com
 @REM
 @REM  optional arguments for this bat   ch file:
 @REM  build type: defaults to Debug

@@ -3,7 +3,7 @@ SETLOCAL
 @REM  ----------------------------------------------------------------------------
 @REM  web-deploy.cmd
 @REM
-@REM  author: mario.moreno@live.com
+@REM  author: m4mc3r@gmail.com
 @REM
 @REM  optional arguments for this batch file:
 @REM  build type: defaults to Debug
@@ -25,8 +25,8 @@ set solution_folder="%CD%\..\..\Src"
 set solution_name=IsoFinder.sln
 set remote_computer=192.168.1.100
 set website=IsoFinder
-set user=192.168.1.100\mario.moreno
-set password=P@ssword1!
+set user=[user-name]
+set password=[password]
 set param_file="%CD%\..\..\Common\Dev.Deployment.SetParameters.xml"
 
 @REM  ----------------------------------------------------

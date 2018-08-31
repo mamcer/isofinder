@@ -3,7 +3,7 @@ SETLOCAL
 @REM  ----------------------------------------------------------------------------
 @REM  open-cover.cmd
 @REM
-@REM  author: mario.moreno@live.com
+@REM  author: m4mc3r@gmail.com
 @REM
 @REM  ----------------------------------------------------------------------------
 

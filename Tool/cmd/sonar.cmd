@@ -3,7 +3,7 @@ SETLOCAL
 @REM  ----------------------------------------------------------------------------
 @REM  sonar.cmd
 @REM
-@REM  author: mario.moreno@live.com
+@REM  author: m4mc3r@gmail.com
 @REM
 @REM  optional arguments for this batch file:
 @REM  build type: defaults to Debug

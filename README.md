@@ -1,6 +1,6 @@
 # IsoFinder
 
-An ASP NET MVC and two Winforms applications from 2015
+An ASP .NET MVC and two Winforms applications from 2015
 
 In `original` branch you will find the original source code for this application. In `master` an upgraded, refactored version.
 
@@ -12,11 +12,11 @@ IsoFinder is an application that helps the user find information (files, folders
 
 Main Functionalities:
 
-* Quick search of information among 
+* Quick search of information 
 * Advanced searches
-* Download of files and folders
+* Download of files and folders as zip files
 
-Summarized workflow: With IsoFinder.Scanner a user scan different iso files and index the content in a SQL Server database. A web application works as a front end, making it easier to search for content and navigate trough the stored volumes. It also allows a user to make request to download files or folders included in the iso volumes. That requests are processed by another application, IsoFinder.Handler, an application which is waiting for request, mount the iso files, copy the requested files or folders making them available to the user through the Web application.
+Summarized workflow: With IsoFinder.Scanner a user scan different iso files and index the content in a SQL Server database. A web application works as front end, making it easier to search for content and navigate trough the stored volumes. It also allows a user to make request to download files or folders included in the iso volumes. That requests are processed by another application, IsoFinder.Handle. An application which is waiting for request, mount the iso files, copy the requested files or folders making them available to the user as a zip file download in the Web application.
 
 Main Projects:
 
@@ -52,3 +52,4 @@ Initially hosted in a private bitbucket repository.
 ## Requirements
 
 - [Virtual CloneDrive](https://www.elby.ch/en/products/vcd.html)
+ISO file mount is a built in functionality on Windows since 8. But this application still relies in the free virtual clone drive utility to control that through command line.

@@ -4,6 +4,8 @@ An ASP .NET MVC and two Winforms applications from 2015
 
 In `original` branch you will find the original source code for this application. In `master` an upgraded, refactored version.
 
+> More details about why I published this project in [this blog post](https://mamcer.github.io/2018-09-02-i-cleaned-up-my-virtual-basement/)
+
 ## Description
 
 IsoFinder is one of the solutions with more time invested from my side. It started by 2010 with a POC and I completely rewrite it several times. A WPF application, MVC and even an AngularJS version. This is the latest version. 
